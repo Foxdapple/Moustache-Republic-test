@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+
+    <div class="section group">
+        <div class="col span_2_of_2" id="header">
+            <div onclick="cartClicked()"><a id="cart">My Cart ( 0 )</a></div>
+        </div>
+        <div class="col span_2_of_2" id="miniCartDisplay">
+            <div>
+                <div class="col span_1_of_2">
+                    <div>
+                        <img>
+                    </div>
+                </div>
+                <div class="col span_1_of_2">
+                    <div>
+                        e
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="content-wrapping">
+            <div class="col span_1_of_2">
+                <img id="image" width="100%">
+            </div>
+            <div class="col span_1_of_2">
+                <div id="right-side-content">
+                    <p id="title" style="font-size: 28px;"></p>
+                    <p id="price_border"><b id="price"></b></p>
+                    <p id="desc" style="line-height: 20px;"></p>
+                    <div id="size-wrapping">
+                        <b>SIZE</b><p class="required">*</p>
+                        <div id="size-selection-boxes">
+                            <!-- gotten from scripts.js -->
+                        </div>
+                        <div style="padding-top: 40px;">
+                            <p><b id="addCartBtn" onclick="addToCart()">ADD TO CART</b></p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+    </div>
+    <script src="scripts.js"></script>
+
+</body>
+</html> 
