@@ -115,6 +115,35 @@ body{
 	padding-left: 20px;
 	padding-right: 20px;
 	font-size: 14px;
+	animation-name: addCarthoverOut;
+	animation-duration: 0.2s;
+	animation-delay: 0s;
+	animation-fill-mode: forwards;
+}
+
+#addCartBtn:hover {
+	animation-name: addCarthoverIn;
+	animation-duration: 0.2s;
+	animation-delay: 0s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes addCarthoverIn{
+	0% {
+		background-color: white;
+	}
+	100% {
+		background-color: #A0D8F1;
+	}
+}
+
+@keyframes addCarthoverOut{
+	0% {
+		background-color: #A0D8F1;
+	}
+	100% {
+		background-color: white;
+	}
 }
 
 .selectionBox, #addCartBtn, #cart {
